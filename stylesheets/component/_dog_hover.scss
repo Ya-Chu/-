@@ -1,0 +1,38 @@
+//狗狗照片與似顏繪hover效果
+.card .paint,
+.card:hover .overlay
+{
+  display: block;
+}
+
+.card:hover .paint,
+.card .overlay{
+  display: none;
+}
+
+
+.brightness:hover {
+  filter:brightness(.85);
+
+}
+
+// 狗狗與設計師hover效果
+.author_c{
+  position:relative;
+}
+
+
+
+.author1:hover .author1,
+.author2:hover .author2,
+.author3:hover .author3,
+.author4:hover .author4
+{
+  display: block;
+  position:absolute; 
+  left: 24px; 
+  bottom: 24px; 
+  font-family: Kalam; 
+  color: white;
+}
+

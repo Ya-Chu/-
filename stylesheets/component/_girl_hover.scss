@@ -1,0 +1,48 @@
+.fixed-girl {
+    display: none;
+}
+    @include media-breakpoint-up(lg) {
+    .fixed-girl     {
+        display: block;
+        position: fixed;
+        right: 62px;
+        bottom: 0;
+        z-index: 1030;
+        }
+    }
+
+.fixed-girl:hover .static,
+.hover{
+    display: none;
+}
+
+.fixed-girl:hover .hover{
+    display: block;
+}
+
+.badge:after{
+    content:'';
+    position:absolute;
+    left:45%; bottom: -11px;
+    width:20px; height:20px;
+    background:inherit;
+    transform:rotate(45deg);
+    box-shadow: inset -3px -3px 3px -2px rgb(0, 0, 0);
+}
+//   .badge:after {
+//     position:absolute;
+//     content:"";
+//     bottom:-19px;
+//     left:50%;
+//     transform:translateX(-50%);
+//     width: 0;
+//     height: 0;
+//     border-width: 9px;
+//     border-style:solid;
+//     border-top-color: $black;
+//     border-right-color: transparent ;
+//     border-bottom-color: transparent;
+//     border-left-color: transparent ;
+//   }
+
+

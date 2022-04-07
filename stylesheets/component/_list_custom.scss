@@ -1,0 +1,11 @@
+
+.lisp li{
+    list-style-type:none;
+    
+}
+.lisp li:hover{
+    list-style-position: inside;
+    list-style-type: '- ';
+    color: $link-hover-color;
+    
+}

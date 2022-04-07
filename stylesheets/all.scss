@@ -1,0 +1,25 @@
+// Custom.scss
+
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+@import "../node_modules/bootstrap/scss/functions";
+
+@import "../stylesheets/helpers/variables";
+@import "../stylesheets/helpers/utilities";
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+
+// Add additional custom code here
+@import "../stylesheets/component/btn_custom";
+@import "../stylesheets/component/link_dark";
+@import "../stylesheets/component/dog_hover";
+@import "../stylesheets/component/list_custom";
+@import "../stylesheets/component/girl_hover";
+
+
+
