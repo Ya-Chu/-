@@ -12,14 +12,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
 
-<style>
-    /* body{
-        font-family: 'Noto Sans TC', 'Kalam', sans-serif;
-    } */
-</style>
+
 
 </head>
-<body style="overflow-x: hidden;" class="font-main">
+<body class="font-main">
     <!-- 固定置底人像 -->
     <a role="button" class="btn fixed-girl " href="./form.html">
         <img src="./img/girl.png"  alt="" class="static mt-5">
@@ -32,42 +28,48 @@
 
     </a>
     <!-- 導覽列開始 -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
-        <div class="container-fluid">
-            <a class="navbar-brand ms-6" href="./home.html"><img src="./img/logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0 ">
-                    <li class="nav-item mx-3">
-                        <a class="nav-link text-primary active fw-bold" aria-current="page" href="#">首頁</a>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link fw-bold" href="./service.html">服務介紹</a>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link fw-bold" href="./portfolio.html">設計作品</a>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link fw-bold" href="./adopts.html">領養專區</a>
-                    </li>
-                    <li class="nav-item mx-3 me-5">
-                        <button class="btn btn-warning rounded-pill">毛孩似顏繪</button>
-                    </li>
+    <div  class="container-fluid">
+        <nav class="row navbar navbar-expand-lg navbar-light bg-white sticky-top">
+            <div class="col container-fluid">
+                <a class="navbar-brand ms-6" href="./home.html"><img src="./img/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0 ">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link text-primary active fw-bold" aria-current="page" href="#">首頁</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link fw-bold" href="./service.html">服務介紹</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link fw-bold" href="./portfolio.html">設計作品</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link fw-bold" href="./adopts.html">領養專區</a>
+                        </li>
+                        <li class="nav-item mx-3 me-5">
+                            <button class="btn btn-warning rounded-pill">毛孩似顏繪</button>
+                        </li>
 
-                </ul>
+                    </ul>
+                    
+                </div>
+                </div>
+
                 
-            </div>
-            </div>
-
-            
-    </nav>
+        </nav>
+    </div>
     <!-- 導覽列結束 -->
 
     <!-- 首頁banner開始 -->
-    <div>
-        <img src="./img/home_mobile.png" srcset="./img/home@2x.png 1400w,  ./img/home_mobile.png 1000w" class="img-fluid" width="100%">
+    <div  class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <img src="./img/home_mobile.png" srcset="./img/home@2x.png 1400w,  ./img/home_mobile.png 1000w" class="img-fluid" width="100%">
+            </div>
+        </div>
     </div>
     <!-- 首頁banner結束 -->
 
@@ -99,7 +101,9 @@
     <!-- 首頁產品開始 -->
     <section style="background-image: url(./img/lightpaperfibers@2x.png);">
     <div class="container"> 
-        <div class="d-flex justify-content-center mb-3"><img src="img/title01.png" alt=""></div>
+        <div class="row">
+            <div class="d-flex justify-content-center mb-3"><img src="img/title01.png" alt=""></div>
+        </div>
         <div class="row row-cols-2 row-cols-lg-4 g-3">
             <div class="col author_c author1" >
                 <img src="./img/dog05.png"  class="img-fluid brightness" alt="" >
@@ -143,11 +147,16 @@
                 <button class="btn btn-outline-dark rounded-pill btn-lg shadow-lg">客製毛孩似顏繪</button>
             </div>
         </div>
-
+    </div>
         <!-- 領養專區開始 -->
-        <div class="d-flex justify-content-center"><img src="img/title02.png" alt=""></div>
-        <p class="text-center mt-2 mb-5">這裡是在還在等家的浪浪們，若您正巧在找個家人，不訪來認識一下唄</p>
 
+        <div class="container"> 
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center"><img src="img/title02.png" alt=""></div>
+                <p class="text-center mt-2 mb-5">這裡是在還在等家的浪浪們，若您正巧在找個家人，不訪來認識一下唄</p>
+            </div>
+        </div>
         <!-- 三欄式卡片開始 -->
         <div class="row row-cols-lg-3 row-cols-1 g-4">
             <div class="col">
@@ -195,13 +204,13 @@
         </div>
         <!-- 三欄式卡片結束 -->
 
-        <div class="row">
+        
             <div class="row my-5">
                 <div class="col text-center">
                     <button class="btn btn-outline-dark rounded-pill fs-5" style="width: 13.5rem">查看更多浪浪</button>
                 </div>
             </div>
-        </div>
+        
 
         </div>
         <!-- 領養專區結束 -->
@@ -216,19 +225,22 @@
                     <div class="col d-flex flex-lg-row flex-column">
                         <div class="text-lg-start text-center"><img class="img-fluid" src="./img/link01/link01.png" alt=""></div>
                         
-                        <div class="col mx-4 text-lg-start text-center">
-                            <h4 class="">加入奴才團隊</h4>
-                            <p>我也會畫畫，希望能盡一份心力！</p>
-                            <button class="btn btn-outline-dark rounded-pill fs-5" style="width: 11rem">聯絡我們</button>
-                        </div>
+                        <div class="row">
+                            <div class="col mx-4 text-lg-start text-center">
+                                <h4 class="">加入奴才團隊</h4>
+                                <p>我也會畫畫，希望能盡一份心力！</p>
+                                <button class="btn btn-outline-dark rounded-pill fs-5" style="width: 11rem">聯絡我們</button>
+                            </div>
+                            </div>
                     </div>
                     <div class="col d-flex flex-lg-row flex-column">
                         <div class="text-lg-start text-center"><img class="img-fluid" src="./img/link02/link02.png" alt=""></div>
-                        
-                        <div class="col mx-4 text-lg-start text-center">
-                            <h4>加入奴才團隊</h4>
-                            <p>我也會畫畫，希望能盡一份心力！</p>
-                            <a role="button" href="./adopts.html" class="btn btn-outline-dark rounded-pill fs-5" style="width: 11rem">領養專區</a>
+                        <div class="row">
+                            <div class="col mx-4 text-lg-start text-center">
+                                <h4>加入奴才團隊</h4>
+                                <p>我也會畫畫，希望能盡一份心力！</p>
+                                <a role="button" href="./adopts.html" class="btn btn-outline-dark rounded-pill fs-5" style="width: 11rem">領養專區</a>
+                            </div>
                         </div>
                     </div>
                     
